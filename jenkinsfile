@@ -8,7 +8,6 @@ pipeline {
                 bat 'type backend\\server.js'
             }
         }
-
         stage('Build Frontend') {
             steps {
                 echo '🎨 Building frontend...'
